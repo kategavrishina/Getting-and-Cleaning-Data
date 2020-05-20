@@ -97,3 +97,12 @@ Each of volunteers was wearing a smartphone Samsung Galaxy S II. Using its embed
 * `fBodyBodyGyroJerkMagMean`
 * `fBodyBodyGyroJerkMagStd`
 * `fBodyBodyGyroJerkMagMeanFreq`
+
+## My modifications
+1. Download the dataset (if it does not already exist)
+2. Load the information about activity and features
+3. Load the training and test datasets with mean or standard deviation columns only
+4. Load the activity and subject info for each dataset, and merge them with the dataset
+5. Merge the two datasets
+6. Turn the activity and subject columns into factors
+7. Create a tidy dataset with the average value of each variable for each subject and activity pair.
